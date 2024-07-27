@@ -196,7 +196,7 @@ function calculatePayments() {
     data.people.forEach((person) => {
         data.people.forEach((_person) => {
             if (person != _person) {
-                tranaction[[person, _person]] = 0
+                tranaction[`${person},${_person}`] = 0
             }
         })
     })
@@ -214,7 +214,7 @@ function calculatePayments() {
             userMultis.forEach((userMulti) => {
                 if (userMulti[0] != category.buy) {
                     const returnAmount = balance * userMulti[1]
-                    tranaction[[userMulti[0], category.buy]] += returnAmount
+                    tranaction[`${userMulti[0]},${category.buy}`] += returnAmount
                 }
             })
         }
@@ -226,7 +226,7 @@ function calculatePayments() {
     resultDiv.innerHTML = `
         <h3>Calculation Results (${startDate} to ${endDate}):</h3>
         <h4>Payments:</h4>
-        <ul>${Object.keys(tranaction).map((tranKey) => `<li>${tranKey.join(" -> ")}: ${tranaction[tranKey]}</li>`).join('')}</ul>
+        <ul>${Object.keys(tranaction).map((tranKey) => `<li>${tranKey.split(",").join(" -> ")}: ${tranaction[tranKey]}</li>`).join('')}</ul>
         `;
 }
 
