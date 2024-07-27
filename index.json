@@ -5,6 +5,31 @@
         "Thuan",
         "Du"
     ],
-    "categorys": [],
+    "categorys": [
+        {
+            "title": "",
+            "date": "2024-07-27",
+            "buy": "Hai",
+            "amount": 213,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
+        }
+    ],
     "calculated": []
 }
