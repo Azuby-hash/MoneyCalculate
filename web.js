@@ -162,26 +162,28 @@ function addBuy() {
     }
     
     if (name && !isNaN(amount)) {
-        data.categorys.push({
-            "title": title,
-            "date": date,
-            "buy": name,
-            "amount": amount,
-            "users": data.people.map((person) => [person, 0])
-        })
-        reloadData()
-        update()
-        nameSelect.value = '';
-        amountInput.value = '';
+        if (confirm(`${name} buy this?`)) {
+            data.categorys.push({
+                "title": title,
+                "date": date,
+                "buy": name,
+                "amount": amount,
+                "users": data.people.map((person) => [person, 0])
+            })
+            reloadData()
+            update()
+        }
     } else {
         alert('Please select a person and enter a valid amount.');
     }
 }
 
 function removeBuy(index) {
-    data.categorys.splice(index, 1);
-    reloadData()
-    update()
+    if (confirm("Remove this buy?")) {
+        data.categorys.splice(index, 1);
+        reloadData()
+        update()
+    }
 }
 
 function addUserCategoryMulti(buyIndex, userIndex) {
