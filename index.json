@@ -1,4 +1,34 @@
 {
-    "people": [],
-    "categorys": []
+    "people": [
+        "Hai",
+        "Son",
+        "Thuan",
+        "Du"
+    ],
+    "categorys": [
+        {
+            "title": "Thit lon",
+            "date": "2024-07-27",
+            "buy": "Hai",
+            "amount": 123,
+            "users": [
+                [
+                    "Son",
+                    3
+                ],
+                [
+                    "Thuan",
+                    1
+                ],
+                [
+                    "Hai",
+                    1
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
+        }
+    ]
 }

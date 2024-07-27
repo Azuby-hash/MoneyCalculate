@@ -123,7 +123,15 @@ async function root() {
 }
 
 function update() {
-    
+    fetch("http://localhost:3000/8af78f8f-6cc2-43e2-ac53-573b3c4cb247", {
+        headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        },
+        method: "POST",
+        body: JSON.stringify(data)
+    })
 }
 
 function addPerson() {
