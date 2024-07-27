@@ -242,6 +242,29 @@ function calculatePayments() {
         }
     });
 
+    Object.keys(tranaction).forEach((key) => {
+        if (tranaction[key] == 0) {
+            delete tranaction[key]
+            return
+        }
+
+        if (tranaction[key] == undefined) {
+            return
+        }
+
+        const reverseKey = key.split(",").reverse().join(",")
+
+        if (tranaction[reverseKey]) {
+            if (tranaction[key] > tranaction[reverseKey]) {
+                tranaction[key] -= tranaction[reverseKey]
+                delete tranaction[reverseKey]
+            } else {
+                tranaction[reverseKey] -= tranaction[key]
+                delete tranaction[key]
+            }
+        }
+    })
+
     console.log(tranaction);
     data.calculated.push({
         "calculate_date": new Date().toISOString().split('T')[0],
