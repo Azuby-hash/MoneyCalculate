@@ -15,7 +15,7 @@ app.get("/", async (req, res) => {
 app.post("/8af78f8f-6cc2-43e2-ac53-573b3c4cb247", async (req, res) => {
     console.log(req.body);
     fs.writeFileSync("index.json", JSON.stringify(req.body, null, 4))
-    // spawnSync("bash", ["update.sh"])
+    spawnSync("bash", ["update.sh"])
     res.send("Update success")
 })
 
