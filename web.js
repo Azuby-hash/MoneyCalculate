@@ -95,7 +95,7 @@ function reloadData() {
 
 async function root() {
     data = await fetchData()
-    console.log(data);
+    
     if (data == undefined) { return }
 
     reloadData()
