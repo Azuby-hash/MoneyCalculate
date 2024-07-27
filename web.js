@@ -79,6 +79,26 @@ function reloadData() {
         </ul>
         </div>
     `
+
+    function calculationResult() {
+        if (data.calculated.length == 0) {
+            return ``
+        }
+
+        const calculationResult = data.calculated[data.calculated.length - 1]
+        const tranaction = calculationResult.tranaction
+        const calculateDate = calculationResult.calculate_date
+        const startDate = calculationResult.start_date
+        const endDate = calculationResult.end_date
+
+        return `
+            <h3>Calculation Results (${startDate} to ${endDate})</h3>
+            <h3>Results from ${calculateDate}</h3>
+            <h4>Payments:</h4>
+            <ul>${Object.keys(tranaction).map((tranKey) => `<li>${tranKey.split(",").join(" -> ")}: ${tranaction[tranKey]}</li>`).join('')}</ul>
+        `
+    }
+
     const calculate = `
         <div class="section">
             <h2>Calculate Payments</h2>
@@ -87,7 +107,9 @@ function reloadData() {
             <label for="endDate">End Date:</label>
             <input type="date" id="endDate">
             <button onclick="calculatePayments()">Calculate</button>
-            <div id="calculationResult"></div>
+            <div id="calculationResult">
+                ${calculationResult()}
+            </div>
         </div>
     `
     root.innerHTML = `${addPeople}${categorys}${calculate}`
@@ -227,14 +249,9 @@ function calculatePayments() {
         "end_date": endDate,
         "tranaction": tranaction
     })
-    update()
 
-    const resultDiv = document.getElementById('calculationResult');
-    resultDiv.innerHTML = `
-        <h3>Calculation Results (${startDate} to ${endDate}):</h3>
-        <h4>Payments:</h4>
-        <ul>${Object.keys(tranaction).map((tranKey) => `<li>${tranKey.split(",").join(" -> ")}: ${tranaction[tranKey]}</li>`).join('')}</ul>
-        `;
+    reloadData()
+    update()
 }
 
 root()
