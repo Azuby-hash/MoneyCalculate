@@ -97,25 +97,7 @@ function reloadData() {
 }
 
 async function root() {
-    // const data = await fetchData()
-
-    data = {
-        "people": ["Hai", "Son", "Thuan", "Du"],
-        "categorys": [
-            {
-                "title": "Thit lon",
-                "date": "2024-07-27",
-                "buy": "Hai",
-                "amount": 123,
-                "users": [
-                    ["Son", 1], 
-                    ["Thuan", 1], 
-                    ["Hai", 1],
-                    ["Du", 0]
-                ]
-            }
-        ]
-    }
+    const data = await fetchData()
 
     if (data == undefined) { return }
 
