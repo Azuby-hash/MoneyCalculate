@@ -31,23 +31,5 @@
             ]
         }
     ],
-    "calculated": [
-        {
-            "date": "2024-07-27",
-            "tranaction": {
-                "Hai,Son": 0,
-                "Hai,Thuan": 0,
-                "Hai,Du": 0,
-                "Son,Hai": 121,
-                "Son,Thuan": 0,
-                "Son,Du": 0,
-                "Thuan,Hai": 121,
-                "Thuan,Son": 0,
-                "Thuan,Du": 0,
-                "Du,Hai": 0,
-                "Du,Son": 0,
-                "Du,Thuan": 0
-            }
-        }
-    ]
+    "calculated": []
 }
