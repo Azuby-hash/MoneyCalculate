@@ -222,7 +222,9 @@ function calculatePayments() {
 
     console.log(tranaction);
     data.calculated.push({
-        "date": new Date().toISOString().split('T')[0],
+        "calculate_date": new Date().toISOString().split('T')[0],
+        "start_date": startDate,
+        "end_date": endDate,
         "tranaction": tranaction
     })
     update()
