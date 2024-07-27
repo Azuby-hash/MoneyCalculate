@@ -2,18 +2,16 @@ const url = "https://raw.githubusercontent.com/Azuby-hash/MoneyCalculate/main/in
 
 function fetchData() {
     return new Promise((resolve, reject) => {
-        async function action() {
-            try {
-                const response = await fetch(url);
-                const json = await response.json();
-                resolve(json)
-            } catch (error) {
-                alert("Fetch data failed")
-                reject(undefined)
-            }
-        }
-
-        action()
+        fetch(url)
+            .then((res) => {
+                return res.json()
+            })
+            .then((value) => {
+                resolve(value)
+            })
+            .catch((reason) => {
+                reject(reason)
+            })
     })
 }
 
@@ -21,7 +19,6 @@ let data = { }
 
 function reloadData() {
     console.log(data);
-
 
     function getUsersText(category) {
         userMultiples = category.users
@@ -97,7 +94,7 @@ function reloadData() {
 }
 
 async function root() {
-    const data = await fetchData()
+    data = await fetchData()
 
     if (data == undefined) { return }
 
