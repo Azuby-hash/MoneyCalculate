@@ -60,7 +60,7 @@ function reloadData() {
                                 <div class="category-user">
                                     <span>${user[1]}x${user[0]}</span>
                                     <span>
-                                        <select id="multiSelect${index}">
+                                        <select id="multiSelect${index}${i}">
                                             <option value="0.5">0.5</option>
                                             <option value="1" selected="selected">1</option>
                                             <option value="1.5">1.5</option>
@@ -185,7 +185,7 @@ function removeBuy(index) {
 }
 
 function addUserCategoryMulti(buyIndex, userIndex) {
-    const multiSelect = document.getElementById(`multiSelect${buyIndex}`);
+    const multiSelect = document.getElementById(`multiSelect${buyIndex}${userIndex}`);
     const selectedMulti = parseFloat(multiSelect.value);
     
     data.categorys[buyIndex].users[userIndex][1] += selectedMulti;
