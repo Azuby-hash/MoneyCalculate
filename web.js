@@ -221,6 +221,8 @@ function calculatePayments() {
     });
 
     console.log(tranaction);
+    data.calculated.push(tranaction)
+    update()
 
     const resultDiv = document.getElementById('calculationResult');
     resultDiv.innerHTML = `
