@@ -5,30 +5,6 @@
         "Thuan",
         "Du"
     ],
-    "categorys": [
-        {
-            "title": "thit",
-            "date": "2024-07-27",
-            "buy": "Hai",
-            "amount": 123,
-            "users": [
-                [
-                    "Hai",
-                    0
-                ],
-                [
-                    "Son",
-                    1
-                ],
-                [
-                    "Thuan",
-                    1
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        }
-    ]
+    "categorys": [],
+    "calculated": []
 }
