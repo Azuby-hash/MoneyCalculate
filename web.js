@@ -226,8 +226,8 @@ function calculatePayments() {
     resultDiv.innerHTML = `
         <h3>Calculation Results (${startDate} to ${endDate}):</h3>
         <h4>Payments:</h4>
+        <ul>${Object.keys(tranaction).map((tranKey) => `<li>${tranKey.join(" -> ")}: ${tranaction[tranKey]}</li>`).join('')}</ul>
         `;
-        // <ul>${payments.map(payment => `<li>${payment}</li>`).join('')}</ul>
 }
 
 root()
