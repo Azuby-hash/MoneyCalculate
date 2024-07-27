@@ -221,7 +221,10 @@ function calculatePayments() {
     });
 
     console.log(tranaction);
-    data.calculated.push(tranaction)
+    data.calculated.push({
+        "date": new Date().toISOString().split('T')[0],
+        "tranaction": tranaction
+    })
     update()
 
     const resultDiv = document.getElementById('calculationResult');

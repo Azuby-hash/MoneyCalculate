@@ -10,7 +10,7 @@
             "title": "",
             "date": "2024-07-27",
             "buy": "Hai",
-            "amount": 213,
+            "amount": 242,
             "users": [
                 [
                     "Hai",
@@ -18,11 +18,11 @@
                 ],
                 [
                     "Son",
-                    1
+                    0
                 ],
                 [
                     "Thuan",
-                    1
+                    0
                 ],
                 [
                     "Du",
@@ -31,34 +31,5 @@
             ]
         }
     ],
-    "calculated": [
-        {
-            "Hai,Son": 0,
-            "Hai,Thuan": 0,
-            "Hai,Du": 0,
-            "Son,Hai": 106.5,
-            "Son,Thuan": 0,
-            "Son,Du": 0,
-            "Thuan,Hai": 106.5,
-            "Thuan,Son": 0,
-            "Thuan,Du": 0,
-            "Du,Hai": 0,
-            "Du,Son": 0,
-            "Du,Thuan": 0
-        },
-        {
-            "Hai,Son": 0,
-            "Hai,Thuan": 0,
-            "Hai,Du": 0,
-            "Son,Hai": 106.5,
-            "Son,Thuan": 0,
-            "Son,Du": 0,
-            "Thuan,Hai": 106.5,
-            "Thuan,Son": 0,
-            "Thuan,Du": 0,
-            "Du,Hai": 0,
-            "Du,Son": 0,
-            "Du,Thuan": 0
-        }
-    ]
+    "calculated": []
 }
