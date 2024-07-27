@@ -5,11 +5,11 @@ import { spawnSync } from "child_process"
 
 const app = express()
 
-app.use(express.static("web"))
+app.use(express.static("./"))
 app.use(bodyParser.json())
 
 app.get("/", async (req, res) => {
-    res.sendFile("web.html", { root: "web" })
+    res.sendFile("web.html", { root: "./" })
 })
 
 app.post("/8af78f8f-6cc2-43e2-ac53-573b3c4cb247", async (req, res) => {
