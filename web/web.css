@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+input, button, select {
+    margin-bottom: 10px;
+}
+.section {
+    margin-bottom: 30px;
+}
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.user-list {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.category-user {
+    display: flex;
+    justify-content: space-between;
+    width: 300px !important;
+}
