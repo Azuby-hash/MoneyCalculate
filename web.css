@@ -25,6 +25,11 @@ input, button, select {
     cursor: pointer;
 }
 .user-list {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.user-list-details {
     margin-left: 20px;
     margin-top: 20px;
     display: flex;

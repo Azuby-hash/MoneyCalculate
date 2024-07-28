@@ -17,6 +17,25 @@ function fetchData() {
 
 let data = { }
 
+function calculationResult() {
+    if (data.calculated.length == 0) {
+        return ``
+    }
+
+    const calculationResult = data.calculated[data.calculated.length - 1]
+    const tranaction = calculationResult.tranaction
+    const calculateDate = calculationResult.calculate_date
+    const startDate = calculationResult.start_date
+    const endDate = calculationResult.end_date
+
+    return `
+        <h3>Calculation Results (${startDate} to ${endDate})</h3>
+        <h3>Results from ${calculateDate}</h3>
+        <h4>Payments:</h4>
+        <ul>${Object.keys(tranaction).map((tranKey) => `<li>${tranKey.split(",").join(" -> ")}: ${tranaction[tranKey]}</li>`).join('')}</ul>
+    `
+}
+
 function reloadData() {
     console.log(data);
 
@@ -30,7 +49,7 @@ function reloadData() {
         <h1>Add People</h1>
         <input type="text" id="nameInput" placeholder="Enter a name">
         <button onclick="addPerson()">Add Person</button>
-        <h2>People List: ${data.people.join(", ")}</h2>
+        <h2><span>People List: </span><span id="peopleList">${data.people.join(", ")}</span></h2>
     `
     const categorys = `
         <div class="section">
@@ -54,17 +73,17 @@ function reloadData() {
                         <span>${category.date} - ${category.buy}: ${category.amount}k</span>
                         <button class="remove-btn" onclick="removeBuy(${index})">Remove</button>
                     </div>
-                    <details>
-                        <summary>
-                            ${category.users.map((user, i) => {
+                    <details class="user-list">
+                        <summary id="summaryBuy${index}">
+                            ${category.users.map((user) => {
                                 return `<span>${user[1]}x${user[0]}</span>`
                             }).join("<span>, </span>")}
                         </summary>
-                        <div class="user-list">
+                        <div class="user-list-details">
                             ${category.users.map((user, i) => {
                                 return `
                                     <div class="category-user">
-                                        <span>${user[1]}x${user[0]}</span>
+                                        <span id="detailsBuyUser${index}${i}">${user[1]}x${user[0]}</span>
                                         <span>
                                             <select id="multiSelect${index}${i}">
                                                 <option value="0.5">0.5</option>
@@ -72,8 +91,8 @@ function reloadData() {
                                                 <option value="1.5">1.5</option>
                                                 <option value="2">2</option>
                                             </select>
-                                            <button onclick="addUserCategoryMulti(${index}, ${i})">Add</button>
-                                            <button onclick="removeUserCategoryMulti(${index}, ${i})">Remove</button>
+                                            <button onclick="addUserCategoryMulti(${index}, ${i})">+</button>
+                                            <button onclick="removeUserCategoryMulti(${index}, ${i})">-</button>
                                         </span>
                                     </div>
                                 `
@@ -86,25 +105,6 @@ function reloadData() {
         </ul>
         </div>
     `
-
-    function calculationResult() {
-        if (data.calculated.length == 0) {
-            return ``
-        }
-
-        const calculationResult = data.calculated[data.calculated.length - 1]
-        const tranaction = calculationResult.tranaction
-        const calculateDate = calculationResult.calculate_date
-        const startDate = calculationResult.start_date
-        const endDate = calculationResult.end_date
-
-        return `
-            <h3>Calculation Results (${startDate} to ${endDate})</h3>
-            <h3>Results from ${calculateDate}</h3>
-            <h4>Payments:</h4>
-            <ul>${Object.keys(tranaction).map((tranKey) => `<li>${tranKey.split(",").join(" -> ")}: ${tranaction[tranKey]}</li>`).join('')}</ul>
-        `
-    }
 
     const calculate = `
         <div class="section">
@@ -144,11 +144,12 @@ function update() {
 
 function addPerson() {
     const nameInput = document.getElementById('nameInput');
+    const peopleList = document.getElementById('peopleList');
     const name = nameInput.value.trim();
     
     if (name) {
         data.people.push(name);
-        reloadData()
+        peopleList.innerHTML = data.people.join(", ")
         update()
         nameInput.value = '';
     }
@@ -195,17 +196,45 @@ function addUserCategoryMulti(buyIndex, userIndex) {
     const multiSelect = document.getElementById(`multiSelect${buyIndex}${userIndex}`);
     const selectedMulti = parseFloat(multiSelect.value);
     
+    const summary = document.getElementById(`summaryBuy${buyIndex}`)
+    const detailsBuyUser = document.getElementById(`detailsBuyUser${buyIndex}${userIndex}`)
+
     data.categorys[buyIndex].users[userIndex][1] += selectedMulti;
-    reloadData()
+
+    const user = data.categorys[buyIndex].users[userIndex]
+
+    summary.innerHTML = `
+        ${data.categorys[buyIndex].users.map((user) => {
+            return `<span>${user[1]}x${user[0]}</span>`
+        }).join("<span>, </span>")}
+    `
+    detailsBuyUser.innerHTML = `
+        ${user[1]}x${user[0]}
+    `
+
     update()
 }
 
 function removeUserCategoryMulti(buyIndex, userIndex) {
-    const multiSelect = document.getElementById(`multiSelect${buyIndex}`);
+    const multiSelect = document.getElementById(`multiSelect${buyIndex}${userIndex}`);
     const selectedMulti = parseFloat(multiSelect.value);
+
+    const summary = document.getElementById(`summaryBuy${buyIndex}`)
+    const detailsBuyUser = document.getElementById(`detailsBuyUser${buyIndex}${userIndex}`)
  
     data.categorys[buyIndex].users[userIndex][1] = Math.max(0, data.categorys[buyIndex].users[userIndex][1] - selectedMulti);
-    reloadData()
+
+    const user = data.categorys[buyIndex].users[userIndex]
+
+    summary.innerHTML = `
+        ${data.categorys[buyIndex].users.map((user) => {
+            return `<span>${user[1]}x${user[0]}</span>`
+        }).join("<span>, </span>")}
+    `
+    detailsBuyUser.innerHTML = `
+        ${user[1]}x${user[0]}
+    `
+
     update()
 }
 
@@ -239,13 +268,28 @@ function calculatePayments() {
                 multi = multi + userMulti[1]
             })
 
-            const balance = category.amount / multi
-            userMultis.forEach((userMulti) => {
-                if (userMulti[0] != category.buy) {
-                    const returnAmount = balance * userMulti[1]
-                    tranaction[`${userMulti[0]},${category.buy}`] += returnAmount
+            function appendTranaction() {
+                if (multi == 0) {
+                    return
                 }
-            })
+
+                const balance = category.amount / multi
+                userMultis.forEach((userMulti) => {
+                    if (userMulti[0] != category.buy) {
+                        const returnAmount = balance * userMulti[1]
+                        tranaction[`${userMulti[0]},${category.buy}`] += returnAmount
+                    }
+                })
+            }
+
+            if (multi == 0) {
+                if (confirm("No people used for some tranaction. Continue?")) {
+                    appendTranaction()
+                    return
+                }
+            }
+
+            appendTranaction()
         }
     });
 
@@ -280,7 +324,9 @@ function calculatePayments() {
         "tranaction": tranaction
     })
 
-    reloadData()
+    let calculation = document.getElementById('calculationResult');
+    calculation.innerHTML = `${calculationResult()}`
+
     update()
 }
 
