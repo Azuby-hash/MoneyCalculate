@@ -54,25 +54,32 @@ function reloadData() {
                         <span>${category.date} - ${category.buy}: ${category.amount}k</span>
                         <button class="remove-btn" onclick="removeBuy(${index})">Remove</button>
                     </div>
-                    <div class="user-list">
-                        ${category.users.map((user, i) => {
-                            return `
-                                <div class="category-user">
-                                    <span>${user[1]}x${user[0]}</span>
-                                    <span>
-                                        <select id="multiSelect${index}${i}">
-                                            <option value="0.5">0.5</option>
-                                            <option value="1" selected="selected">1</option>
-                                            <option value="1.5">1.5</option>
-                                            <option value="2">2</option>
-                                        </select>
-                                        <button onclick="addUserCategoryMulti(${index}, ${i})">Add</button>
-                                        <button onclick="removeUserCategoryMulti(${index}, ${i})">Remove</button>
-                                    </span>
-                                </div>
-                            `
-                        }).join("")}
-                    </div>
+                    <details>
+                        <summary>
+                            ${category.users.map((user, i) => {
+                                return `<span>${user[1]}x${user[0]}</span>`
+                            }).join("<span>, </span>")}
+                        </summary>
+                        <div class="user-list">
+                            ${category.users.map((user, i) => {
+                                return `
+                                    <div class="category-user">
+                                        <span>${user[1]}x${user[0]}</span>
+                                        <span>
+                                            <select id="multiSelect${index}${i}">
+                                                <option value="0.5">0.5</option>
+                                                <option value="1" selected="selected">1</option>
+                                                <option value="1.5">1.5</option>
+                                                <option value="2">2</option>
+                                            </select>
+                                            <button onclick="addUserCategoryMulti(${index}, ${i})">Add</button>
+                                            <button onclick="removeUserCategoryMulti(${index}, ${i})">Remove</button>
+                                        </span>
+                                    </div>
+                                `
+                            }).join("")}
+                        </div>
+                    </details>
                 </li>
                 `
             }).join("")}
@@ -162,17 +169,15 @@ function addBuy() {
     }
     
     if (name && !isNaN(amount)) {
-        if (confirm(`${name} buy this?`)) {
-            data.categorys.push({
-                "title": title,
-                "date": date,
-                "buy": name,
-                "amount": amount,
-                "users": data.people.map((person) => [person, 0])
-            })
-            reloadData()
-            update()
-        }
+        data.categorys.push({
+            "title": title,
+            "date": date,
+            "buy": name,
+            "amount": amount,
+            "users": data.people.map((person) => [person, 0])
+        })
+        reloadData()
+        update()
     } else {
         alert('Please select a person and enter a valid amount.');
     }
