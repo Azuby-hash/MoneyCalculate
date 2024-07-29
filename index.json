@@ -5,6 +5,31 @@
         "Thuan",
         "Du"
     ],
-    "categorys": [],
+    "categorys": [
+        {
+            "title": " thịt bò",
+            "date": "2024-07-29",
+            "buy": "Hai",
+            "amount": 25,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
+        }
+    ],
     "calculated": []
 }
