@@ -149,6 +149,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "cải canh 3k + thịt băm 67.5k",
+            "date": "2024-08-01",
+            "buy": "Hai",
+            "amount": 70.5,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
