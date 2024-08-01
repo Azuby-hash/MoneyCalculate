@@ -173,6 +173,30 @@
                     1.5
                 ]
             ]
+        },
+        {
+            "title": "thịt 20k + bí đậu 32k + trứng 6k",
+            "date": "2024-08-01",
+            "buy": "Son",
+            "amount": 58,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
