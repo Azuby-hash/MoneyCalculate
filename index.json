@@ -151,10 +151,10 @@
             ]
         },
         {
-            "title": "cải canh 3k + thịt băm 67.5k",
+            "title": "cải canh 3k + thịt băm 33k",
             "date": "2024-08-01",
             "buy": "Hai",
-            "amount": 70.5,
+            "amount": 36,
             "users": [
                 [
                     "Hai",
@@ -171,6 +171,54 @@
                 [
                     "Du",
                     1.5
+                ]
+            ]
+        },
+        {
+            "title": "thịt 20k + bí đậu 32k + trứng 6k",
+            "date": "2024-08-01",
+            "buy": "Son",
+            "amount": 58,
+            "users": [
+                [
+                    "Hai",
+                    1
+                ],
+                [
+                    "Son",
+                    1.5
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
+        },
+        {
+            "title": "trứng 9k + thịt 20k + rau muống 8k + cà chua 8k",
+            "date": "2024-08-06",
+            "buy": "Son",
+            "amount": 45,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
                 ]
             ]
         }
