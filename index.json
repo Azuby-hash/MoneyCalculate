@@ -199,10 +199,10 @@
             ]
         },
         {
-            "title": "trứng 9k + thịt 20k + rau muống 8k + cà chua 8k",
+            "title": "trứng 9k + thịt 20k",
             "date": "2024-08-06",
-            "buy": "Son",
-            "amount": 45,
+            "buy": "Hai",
+            "amount": 29,
             "users": [
                 [
                     "Hai",
@@ -210,11 +210,11 @@
                 ],
                 [
                     "Son",
-                    1.5
+                    0
                 ],
                 [
                     "Thuan",
-                    1
+                    0
                 ],
                 [
                     "Du",
