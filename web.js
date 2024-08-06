@@ -2,16 +2,26 @@ const url = "https://raw.githubusercontent.com/Azuby-hash/MoneyCalculate/main/in
 
 function fetchData() {
     return new Promise((resolve, reject) => {
-        fetch(url)
-            .then((res) => {
-                return res.json()
+        fetch('index.json')
+            .then(response => response.json())
+            .then(data => {
+                resolve(data)
             })
-            .then((value) => {
-                resolve(value)
-            })
-            .catch((reason) => {
-                reject(reason)
-            })
+            .catch(error => { 
+                console.error("Error fetching JSON data:", error) 
+                console.log("Try from publish json file");
+
+                fetch(url)
+                    .then((res) => {
+                        return res.json()
+                    })
+                    .then((value) => {
+                        resolve(value)
+                    })
+                    .catch((reason) => {
+                        reject(reason)
+                    })
+            });
     })
 }
 
