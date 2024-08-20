@@ -293,6 +293,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "nuoc mam",
+            "date": "2024-08-12",
+            "buy": "Son",
+            "amount": 30,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
