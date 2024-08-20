@@ -343,30 +343,6 @@
             ]
         },
         {
-            "title": "hanh tay + trung + rau muong",
-            "date": "2024-08-20",
-            "buy": "Son",
-            "amount": 23,
-            "users": [
-                [
-                    "Hai",
-                    0
-                ],
-                [
-                    "Son",
-                    1.5
-                ],
-                [
-                    "Thuan",
-                    1
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "2 com rang thap cam",
             "date": "2024-08-19",
             "buy": "Hai",
