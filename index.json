@@ -389,6 +389,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thịt miếng 33k + trứng 6k",
+            "date": "2024-08-12",
+            "buy": "Hai",
+            "amount": 39,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
