@@ -389,6 +389,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit 40 + trung 4x30/11 + rau cai 6",
+            "date": "2024-08-20",
+            "buy": "Son",
+            "amount": 56.9,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
