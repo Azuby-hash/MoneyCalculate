@@ -413,6 +413,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit ga",
+            "date": "2024-08-28",
+            "buy": "Thuan",
+            "amount": 50,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
