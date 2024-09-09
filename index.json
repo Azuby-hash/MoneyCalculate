@@ -485,6 +485,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "trung x4 + thi bam 40 + rau muong 6 + hanh la 1",
+            "date": "2024-09-04",
+            "buy": "Son",
+            "amount": 60.2,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
