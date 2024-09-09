@@ -635,6 +635,17 @@
             "start_date": "2024-07-29",
             "end_date": "2024-05-09",
             "tranaction": {}
+        },
+        {
+            "calculate_date": "2024-09-09",
+            "start_date": "2024-07-29",
+            "end_date": "2024-09-09",
+            "tranaction": {
+                "Son,Hai": 74.30909100000001,
+                "Thuan,Hai": 89.1,
+                "Thuan,Son": 30.499999999999986,
+                "Du,Hai": 21.6
+            }
         }
     ]
 }
