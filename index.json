@@ -437,6 +437,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau mong toi + trung x 3",
+            "date": "2024-08-28",
+            "buy": "Son",
+            "amount": 13,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
