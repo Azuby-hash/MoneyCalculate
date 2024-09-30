@@ -701,6 +701,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "1 trung",
+            "date": "2024-09-15",
+            "buy": "Son",
+            "amount": 3,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
