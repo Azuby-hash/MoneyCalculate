@@ -797,6 +797,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit bo 50 + thit kho (20 + 33/2)",
+            "date": "2024-09-16",
+            "buy": "Hai",
+            "amount": 86.5,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
