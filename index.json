@@ -893,6 +893,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "2 trung",
+            "date": "2024-09-24",
+            "buy": "Son",
+            "amount": 7,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
