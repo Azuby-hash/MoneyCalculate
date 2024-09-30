@@ -941,6 +941,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau cai / 2",
+            "date": "2024-09-26",
+            "buy": "Son",
+            "amount": 5,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
