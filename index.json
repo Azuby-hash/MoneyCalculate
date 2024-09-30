@@ -917,6 +917,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit ga 40 + rau 10",
+            "date": "2024-09-25",
+            "buy": "Son",
+            "amount": 50,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
