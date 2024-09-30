@@ -725,6 +725,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "2 trung",
+            "date": "2024-09-15",
+            "buy": "Thuan",
+            "amount": 6.6,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
