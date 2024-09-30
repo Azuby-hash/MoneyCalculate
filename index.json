@@ -845,6 +845,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit bam 35 + rau 22",
+            "date": "2024-09-23",
+            "buy": "Son",
+            "amount": 57,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
