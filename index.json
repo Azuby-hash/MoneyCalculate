@@ -989,6 +989,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "giay vs 70 + magi 20",
+            "date": "2024-09-20",
+            "buy": "Hai",
+            "amount": 90,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
