@@ -869,6 +869,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "1/4 tui thit",
+            "date": "2024-09-24",
+            "buy": "Hai",
+            "amount": 8.25,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
