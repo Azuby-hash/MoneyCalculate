@@ -1054,6 +1054,26 @@
                 "Thuan,Son": 30.499999999999986,
                 "Du,Hai": 21.6
             }
+        },
+        {
+            "calculate_date": "2024-09-30",
+            "start_date": "2024-09-10",
+            "end_date": "2024-10-01",
+            "tranaction": {
+                "Son,Hai": 41.75,
+                "Thuan,Hai": 64.575,
+                "Thuan,Son": 91.15
+            }
+        },
+        {
+            "calculate_date": "2024-09-30",
+            "start_date": "2024-09-09",
+            "end_date": "2024-10-01",
+            "tranaction": {
+                "Son,Hai": 41.75,
+                "Thuan,Hai": 64.575,
+                "Thuan,Son": 91.15
+            }
         }
     ]
 }
