@@ -605,6 +605,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "ca chua 7 + thit bam 35 + rau muong 8 + trung 9.9",
+            "date": "2024-09-10",
+            "buy": "Son",
+            "amount": 59.9,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
