@@ -1085,6 +1085,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "1 thịt miếng 33k, 2k hành, 2 cà chua, 1/2 rau muống",
+            "date": "2024-10-08",
+            "buy": "Hai",
+            "amount": 52,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
