@@ -1061,6 +1061,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "trung cut thit kho + 1/2 rau muong",
+            "date": "2024-10-03",
+            "buy": "Hai",
+            "amount": 60,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
