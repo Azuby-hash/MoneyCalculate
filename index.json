@@ -1133,6 +1133,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "dau an",
+            "date": "2024-10-15",
+            "buy": "Hai",
+            "amount": 53,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
