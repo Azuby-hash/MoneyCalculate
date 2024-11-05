@@ -1205,6 +1205,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit",
+            "date": "2024-10-25",
+            "buy": "Son",
+            "amount": 20,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
