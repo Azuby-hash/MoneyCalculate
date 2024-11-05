@@ -1013,6 +1013,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "cha + trung",
+            "date": "2024-10-01",
+            "buy": "Hai",
+            "amount": 45,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
