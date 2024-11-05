@@ -1253,6 +1253,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "2 ca chua rau cai 3 trung",
+            "date": "2024-10-29",
+            "buy": "Son",
+            "amount": 22,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
