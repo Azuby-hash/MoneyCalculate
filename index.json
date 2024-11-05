@@ -1277,6 +1277,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit + cha",
+            "date": "2024-11-05",
+            "buy": "Hai",
+            "amount": 63,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
