@@ -1325,6 +1325,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "Gạo + magi + muối",
+            "date": "2024-10-30",
+            "buy": "Hai",
+            "amount": 255,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
