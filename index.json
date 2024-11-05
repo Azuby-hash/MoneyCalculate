@@ -1109,6 +1109,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "2 trung",
+            "date": "2024-10-12",
+            "buy": "Hai",
+            "amount": 6,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
