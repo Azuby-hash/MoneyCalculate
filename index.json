@@ -1349,6 +1349,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau cai",
+            "date": "2024-11-07",
+            "buy": "Son",
+            "amount": 8,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
