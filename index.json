@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": "thịt 20k + bí đậu 32k + trứng 6k",
-            "date": "2024-08-01",
-            "buy": "Son",
-            "amount": 58,
-            "users": [
-                [
-                    "Hai",
-                    1
-                ],
-                [
-                    "Son",
-                    1.5
-                ],
-                [
-                    "Thuan",
-                    0
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "trứng 9k + thịt 20k",
             "date": "2024-08-06",
             "buy": "Hai",
