@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": "rau mong toi",
-            "date": "2024-08-12",
-            "buy": "Son",
-            "amount": 3,
-            "users": [
-                [
-                    "Hai",
-                    0
-                ],
-                [
-                    "Son",
-                    1
-                ],
-                [
-                    "Thuan",
-                    1
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "nuoc mam",
             "date": "2024-08-12",
             "buy": "Son",
