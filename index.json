@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": "thịt miếng",
-            "date": "2024-07-29",
-            "buy": "Hai",
-            "amount": 33,
-            "users": [
-                [
-                    "Hai",
-                    1
-                ],
-                [
-                    "Son",
-                    1
-                ],
-                [
-                    "Thuan",
-                    0
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "rau muống",
             "date": "2024-07-29",
             "buy": "Hai",
