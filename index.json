@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": " thịt bò",
-            "date": "2024-07-29",
-            "buy": "Hai",
-            "amount": 25,
-            "users": [
-                [
-                    "Hai",
-                    1
-                ],
-                [
-                    "Son",
-                    1
-                ],
-                [
-                    "Thuan",
-                    0
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "trứng cút",
             "date": "2024-07-29",
             "buy": "Hai",
