@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": "rau muống",
-            "date": "2024-07-29",
-            "buy": "Hai",
-            "amount": 11.666666666666666,
-            "users": [
-                [
-                    "Hai",
-                    1
-                ],
-                [
-                    "Son",
-                    1
-                ],
-                [
-                    "Thuan",
-                    0
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "gói thịt kho",
             "date": "2024-07-29",
             "buy": "Hai",
