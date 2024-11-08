@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": "gói thịt kho",
-            "date": "2024-07-29",
-            "buy": "Hai",
-            "amount": 5,
-            "users": [
-                [
-                    "Hai",
-                    1
-                ],
-                [
-                    "Son",
-                    1
-                ],
-                [
-                    "Thuan",
-                    0
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "trứng + hành + tỏi",
             "date": "2024-07-29",
             "buy": "Hai",
