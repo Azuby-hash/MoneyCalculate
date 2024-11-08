@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": "trứng + hành + tỏi",
-            "date": "2024-07-29",
-            "buy": "Hai",
-            "amount": 11,
-            "users": [
-                [
-                    "Hai",
-                    1
-                ],
-                [
-                    "Son",
-                    1
-                ],
-                [
-                    "Thuan",
-                    0
-                ],
-                [
-                    "Du",
-                    0
-                ]
-            ]
-        },
-        {
             "title": "cải canh 3k + thịt băm 33k",
             "date": "2024-08-01",
             "buy": "Hai",
