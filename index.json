@@ -7,30 +7,6 @@
     ],
     "categorys": [
         {
-            "title": "cải canh 3k + thịt băm 33k",
-            "date": "2024-08-01",
-            "buy": "Hai",
-            "amount": 36,
-            "users": [
-                [
-                    "Hai",
-                    1
-                ],
-                [
-                    "Son",
-                    0
-                ],
-                [
-                    "Thuan",
-                    0
-                ],
-                [
-                    "Du",
-                    1.5
-                ]
-            ]
-        },
-        {
             "title": "thịt 20k + bí đậu 32k + trứng 6k",
             "date": "2024-08-01",
             "buy": "Son",
