@@ -77,6 +77,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "dau an + nc mam",
+            "date": "2024-11-28",
+            "buy": "Hai",
+            "amount": 72,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
