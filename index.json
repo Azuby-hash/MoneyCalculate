@@ -269,6 +269,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau",
+            "date": "2024-11-26",
+            "buy": "Thuan",
+            "amount": 10,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
