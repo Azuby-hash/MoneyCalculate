@@ -173,6 +173,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "dau + 4 trung",
+            "date": "2024-11-23",
+            "buy": "Thuan",
+            "amount": 24,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
