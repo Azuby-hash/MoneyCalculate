@@ -245,6 +245,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit + trung cut",
+            "date": "2024-11-26",
+            "buy": "Hai",
+            "amount": 56,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
