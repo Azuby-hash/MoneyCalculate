@@ -317,6 +317,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "3 trung",
+            "date": "2024-12-03",
+            "buy": "Thuan",
+            "amount": 9,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
