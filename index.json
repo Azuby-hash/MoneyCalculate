@@ -413,6 +413,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit + 3 trung + rau",
+            "date": "2025-01-01",
+            "buy": "Son",
+            "amount": 51,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
