@@ -533,6 +533,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "dat com",
+            "date": "2025-01-13",
+            "buy": "Thuan",
+            "amount": 120,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
