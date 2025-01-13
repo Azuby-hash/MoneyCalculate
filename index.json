@@ -437,6 +437,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau cai",
+            "date": "2025-01-01",
+            "buy": "Thuan",
+            "amount": 20,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
