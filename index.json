@@ -53,6 +53,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "cai 10 + trung 7.5",
+            "date": "2025-11-02",
+            "buy": "Son",
+            "amount": 17.5,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
