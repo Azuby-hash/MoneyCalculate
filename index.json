@@ -561,6 +561,16 @@
                 "Thuan,Hai": 13.5,
                 "Thuan,Son": 101.41666666666669
             }
+        },
+        {
+            "calculate_date": "2025-03-13",
+            "start_date": "2025-02-01",
+            "end_date": "2025-03-12",
+            "tranaction": {
+                "Hai,Son": 116.16666666666663,
+                "Thuan,Hai": 15.5,
+                "Thuan,Son": 103.41666666666669
+            }
         }
     ]
 }
