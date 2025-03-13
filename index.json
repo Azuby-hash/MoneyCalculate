@@ -365,6 +365,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "goi nuong 8 + ca chua 6",
+            "date": "2025-03-05",
+            "buy": "Son",
+            "amount": 14,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
