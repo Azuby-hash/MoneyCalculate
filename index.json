@@ -461,6 +461,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "nong lanh 50",
+            "date": "2025-03-05",
+            "buy": "Thuan",
+            "amount": 50,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
