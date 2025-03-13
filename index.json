@@ -29,6 +29,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "lap suon 20 + gio 20 + trung 8 + cai cuc 6",
+            "date": "2025-05-02",
+            "buy": "Thuan",
+            "amount": 44,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
