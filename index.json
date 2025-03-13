@@ -293,6 +293,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "tuong ot + maggie",
+            "date": "2025-02-03",
+            "buy": "Hai",
+            "amount": 37,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
