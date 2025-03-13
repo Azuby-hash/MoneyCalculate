@@ -31,10 +31,10 @@
             ]
         },
         {
-            "title": "lap suon 20 + gio 20 + trung 8 + cai cuc 6",
+            "title": "lap suon 20 + gio 20",
             "date": "2025-02-05",
             "buy": "Thuan",
-            "amount": 44,
+            "amount": 40,
             "users": [
                 [
                     "Hai",
@@ -479,6 +479,30 @@
                 [
                     "Thuan",
                     1
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
+        },
+        {
+            "title": "rau",
+            "date": "2025-02-05",
+            "buy": "Son",
+            "amount": 14,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
                 ],
                 [
                     "Du",
