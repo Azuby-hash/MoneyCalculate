@@ -269,6 +269,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "bimbim",
+            "date": "2025-02-28",
+            "buy": "Son",
+            "amount": 24,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
