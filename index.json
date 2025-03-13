@@ -245,6 +245,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "muop dang 9",
+            "date": "2025-02-25",
+            "buy": "Hai",
+            "amount": 9,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
