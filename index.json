@@ -221,6 +221,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau 6 + gio 20",
+            "date": "2025-02-25",
+            "buy": "Son",
+            "amount": 26,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
