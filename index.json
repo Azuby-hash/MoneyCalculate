@@ -197,6 +197,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit 33 + trung cut goi kho 20 + thit 11",
+            "date": "2025-02-25",
+            "buy": "Hai",
+            "amount": 64,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
