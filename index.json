@@ -389,6 +389,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit 40 + cha 45 + rau 12",
+            "date": "2025-03-11",
+            "buy": "Hai",
+            "amount": 97,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
