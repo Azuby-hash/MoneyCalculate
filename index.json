@@ -413,6 +413,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thong bon cau",
+            "date": "2025-03-11",
+            "buy": "Thuan",
+            "amount": 70,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
