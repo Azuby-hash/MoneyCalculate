@@ -8,7 +8,7 @@
     "categorys": [
         {
             "title": "thit 20 + trung 5 + rau cai 7",
-            "date": "2025-04-02",
+            "date": "2025-02-04",
             "buy": "Son",
             "amount": 32,
             "users": [
@@ -32,7 +32,7 @@
         },
         {
             "title": "lap suon 20 + gio 20 + trung 8 + cai cuc 6",
-            "date": "2025-05-02",
+            "date": "2025-02-05",
             "buy": "Thuan",
             "amount": 44,
             "users": [
@@ -56,7 +56,7 @@
         },
         {
             "title": "cai 10 + trung 7.5",
-            "date": "2025-11-02",
+            "date": "2025-02-11",
             "buy": "Son",
             "amount": 17.5,
             "users": [
@@ -80,7 +80,7 @@
         },
         {
             "title": "ga 15",
-            "date": "2025-11-02",
+            "date": "2025-02-11",
             "buy": "Hai",
             "amount": 15,
             "users": [
@@ -104,7 +104,7 @@
         },
         {
             "title": "chao 199",
-            "date": "2025-11-02",
+            "date": "2025-02-11",
             "buy": "Son",
             "amount": 199,
             "users": [
@@ -128,7 +128,7 @@
         },
         {
             "title": "com 25 + kit 50",
-            "date": "2025-11-02",
+            "date": "2025-02-11",
             "buy": "Son",
             "amount": 75,
             "users": [
@@ -526,6 +526,16 @@
                 "Son,Hai": 24.666666666666657,
                 "Thuan,Hai": 28,
                 "Thuan,Son": 32.33333333333334
+            }
+        },
+        {
+            "calculate_date": "2025-03-13",
+            "start_date": "2025-02-01",
+            "end_date": "2025-03-12",
+            "tranaction": {
+                "Hai,Son": 109.16666666666663,
+                "Thuan,Hai": 13.5,
+                "Thuan,Son": 101.41666666666669
             }
         }
     ]
