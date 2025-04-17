@@ -701,6 +701,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "muop",
+            "date": "2025-04-03",
+            "buy": "Hai",
+            "amount": 6,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
