@@ -533,6 +533,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit + xoi",
+            "date": "2025-04-02",
+            "buy": "Son",
+            "amount": 40,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
