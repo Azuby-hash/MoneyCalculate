@@ -797,6 +797,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau",
+            "date": "2025-04-10",
+            "buy": "Son",
+            "amount": 7,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
