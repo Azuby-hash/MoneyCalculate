@@ -725,6 +725,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit",
+            "date": "2025-04-08",
+            "buy": "Hai",
+            "amount": 50,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
