@@ -773,6 +773,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "thit cha hanh",
+            "date": "2025-04-10",
+            "buy": "Hai",
+            "amount": 77,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
