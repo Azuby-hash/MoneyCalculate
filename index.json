@@ -581,6 +581,30 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "dau hao",
+            "date": "2025-04-02",
+            "buy": "Thuan",
+            "amount": 38,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ],
+                [
+                    "Du",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": [
