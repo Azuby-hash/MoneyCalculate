@@ -164,6 +164,26 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "Rau(S): 10k",
+            "date": "2025-06-10",
+            "buy": "Son",
+            "amount": 10,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
