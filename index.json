@@ -266,5 +266,16 @@
             ]
         }
     ],
-    "calculated": []
+    "calculated": [
+        {
+            "calculate_date": "2025-06-16",
+            "start_date": "2025-05-01",
+            "end_date": "2025-06-30",
+            "tranaction": {
+                "Son,Hai": 128.99999999999997,
+                "Son,Thuan": 24.166666666666664,
+                "Thuan,Hai": 18.83333333333333
+            }
+        }
+    ]
 }
