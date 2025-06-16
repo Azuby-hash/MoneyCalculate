@@ -67,7 +67,7 @@
         },
         {
             "title": "Dầu ăn(H):60k",
-            "date": "2025-07-05",
+            "date": "2025-05-07",
             "buy": "Hai",
             "amount": 60,
             "users": [
@@ -87,7 +87,7 @@
         },
         {
             "title": "Magi(T): 25k Thảm lau chân(T): 50k",
-            "date": "2025-07-05",
+            "date": "2025-05-07",
             "buy": "Thuan",
             "amount": 75,
             "users": [
@@ -110,6 +110,26 @@
             "date": "2025-05-22",
             "buy": "Hai",
             "amount": 72,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
+        },
+        {
+            "title": "",
+            "date": "2023-12-04",
+            "buy": "Hai",
+            "amount": 12,
             "users": [
                 [
                     "Hai",
