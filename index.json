@@ -204,6 +204,26 @@
                     1
                 ]
             ]
+        },
+        {
+            "title": "Trứng (T): 3x3k",
+            "date": "2025-06-11",
+            "buy": "Thuan",
+            "amount": 9,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
