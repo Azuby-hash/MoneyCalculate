@@ -244,6 +244,26 @@
                     1
                 ]
             ]
+        },
+        {
+            "title": "pho bo",
+            "date": "2025-06-08",
+            "buy": "Hai",
+            "amount": 35,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
