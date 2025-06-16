@@ -104,6 +104,26 @@
                     1
                 ]
             ]
+        },
+        {
+            "title": "- Thịt băm(H): 33k - Chả(H):32k - Rau(H):7k",
+            "date": "2025-05-22",
+            "buy": "Hai",
+            "amount": 72,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
