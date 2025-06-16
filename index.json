@@ -181,6 +181,26 @@
                 ],
                 [
                     "Thuan",
+                    1
+                ]
+            ]
+        },
+        {
+            "title": "Thịt bò(S): 50k - Rau(S): 10k",
+            "date": "2025-06-11",
+            "buy": "Son",
+            "amount": 60,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
                     0
                 ]
             ]
