@@ -64,6 +64,26 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "Dầu ăn(H):60k",
+            "date": "2025-07-05",
+            "buy": "Hai",
+            "amount": 60,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
