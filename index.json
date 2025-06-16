@@ -144,6 +144,26 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "Chả (H): 32k - Thịt + trứng+ gói kho(H): 53k",
+            "date": "2025-06-10",
+            "buy": "Hai",
+            "amount": 85,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
