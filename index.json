@@ -164,6 +164,26 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau",
+            "date": "2025-07-15",
+            "buy": "Thuan",
+            "amount": 10,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
