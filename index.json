@@ -144,6 +144,26 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "ech thit",
+            "date": "2025-07-15",
+            "buy": "Hai",
+            "amount": 79,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
