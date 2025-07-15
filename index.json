@@ -184,6 +184,26 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "gao nuoc rua bat dau an",
+            "date": "2025-07-01",
+            "buy": "Hai",
+            "amount": 174,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
