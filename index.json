@@ -108,7 +108,7 @@
         {
             "title": "thit rau",
             "date": "2025-07-09",
-            "buy": "Hai",
+            "buy": "Son",
             "amount": 60,
             "users": [
                 [
@@ -117,7 +117,7 @@
                 ],
                 [
                     "Son",
-                    0
+                    1
                 ],
                 [
                     "Thuan",
