@@ -24,6 +24,26 @@
                     0
                 ]
             ]
+        },
+        {
+            "title": "rau + trung",
+            "date": "2025-06-17",
+            "buy": "Son",
+            "amount": 15.6,
+            "users": [
+                [
+                    "Hai",
+                    0
+                ],
+                [
+                    "Son",
+                    0
+                ],
+                [
+                    "Thuan",
+                    0
+                ]
+            ]
         }
     ],
     "calculated": []
